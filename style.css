@@ -1,0 +1,74 @@
+body{   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url(images/kids\ learning.webp );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    /* background: linear-gradient(to right,#5e4caf,#aaadb3); */
+    }
+    .container{
+        background-color:white;
+        padding: 35px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0,2);
+        width: 380px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    label{
+        display: block;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #333;
+    }
+    input,select{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 3px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    button{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: rgb(102, 8, 8);
+        color: white;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 15px;
+    }
+    button:hover{
+        background-color: rgb(105, 77, 77);
+    }
+    .extra-fields{
+        display: none;
+        animation: fadeIn 0.3s ease-in-out;
+    }
+    @keyframes fadeIn{
+        from{opacity: 0;transform: translateY(-5px);}
+        to{opacity: 1;transform: translateY(0);}
+    }
+    input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+        accent-color: #007bff;
+    }
+    checkbox{
+        margin-top: 3px;
+    }
+   
