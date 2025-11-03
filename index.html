@@ -9,56 +9,22 @@
 <body>
     <div class="container">
         <h2>School Login Portal</h2>
-        <form action="#" id="loginForm">
-            <label for ="roles">Select Role:</label>
-            <select name="role" id="role" required>
+        <form id="loginForm">
+            <label >Select Role:</label>
+            <select  id="roleSelect" required>
                 <option value="">Choose Role</option>
                 <option value="admin">Admin</option>
                 <option value="teacher">Teacher</option>
                 <option value="parent">Parent</option>
             </select>
-            <div id="commonFields">
-                <label id="fullname">F ullName:</label>
+            
+                <label>FullName:</label>
                 <input type="text" id="fullname" placeholder="Enter your FullName" required>
-                 <label id="password">Password:</label>
+                 <label>Password:</label>
                 <input type="password" id="password" placeholder="Enter your Password" required>
-            </div>
-
-            <!--Admin Field-->
-            <div id="adminFields" class="extra-fields">
-                <label for="adminid">Admin Id:</label>
-                <input type="text" id="adminid" placeholder="Enter  Admin id">
-
-            </div>
-
-
-             <!--Teacher Field-->
-            <div id="teacherFields" class="extra-fields">
-                <label for="teacherid">Teacher Id:</label>
-                <input type="text" id="teacherid" placeholder="Enter Teacher id">
-                <label for="teacherphonenumber">Teacher Phone Number:</label>
-                <input type="text" id="teacherphonenumber" placeholder="Enter Teacher Phone Number">
-                
-
-            </div>
-
-             <!--Parent Field-->
-            <div id="parentFields" class="extra-fields">
-                <label for="studentid">Student Id:</label>
-                <input type="text" id="studentid" placeholder="Enter  Student Id">
-                <label for="studentfirstname">Student First-name:</label>
-                <input type="text" id="studentfirstname" placeholder="Enter  Student First-name">
-                 <label for="studentmiddlename">Student Middle-name:</label>
-                <input type="text" id="studentmiddlename" placeholder="Enter  Student Middle-name">
-                 <label for="studentsurname">Student Sur-name:</label>
-                <input type="text" id="studentsurname" placeholder="Enter  Student Sur-name">
-                 <label for="studentclass">Student class:</label>
-                <input type="text" id="studentclass" placeholder="Enter  Student class">
-
-            </div>
 
            
-                 <label >
+                  <label >
                     <input type="checkbox" id="Rememberme"> 
                     Remember Me
                 </label>
@@ -69,13 +35,14 @@
                  <a href="forget.html">forgotten password?</a>
         
                
-            
+             
             <button type="submit">Login</button>
             <p>create an account <a href="register.html">Register</a></p>
-           
+
         </form>
+            
 
     </div>
-    <script src="script.js"></script>
+<script src="login.js"></script>
 </body>
 </html>
